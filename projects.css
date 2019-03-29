@@ -1,13 +1,21 @@
+
+#cardProjects {
+	padding-top: 75px;
+}
+
 body{
 	background-color:#163D57;
 }
 .grid-container{
 	display: grid;
 	grid-template-columns: auto auto;
-	grid-gap: 20px;
+	grid-gap: 200px;
+	grid-template-rows: 200px;
+	padding-top: 200px;
 	grid-auto-rows: auto;
-	grid-template-rows: 
 }
+
+
 
 #main {
 	padding-top: 35px;
@@ -57,6 +65,11 @@ h2{
 	font-family: 'Permanent Marker';
 }
 p{
-	color: white;
+	color: black;
 }
 }
+
+#card-text {
+	color: black;
+}
+
